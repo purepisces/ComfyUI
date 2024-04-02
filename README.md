@@ -21,7 +21,7 @@ python3 main.py
 
 3. Download a workflow json:  https://openart.ai/workflows/templates and press load button to upload it: e.g. I download https://openart.ai/workflows/openart/-/lkOtNJ2UexVd6vK0kYhd
 
-4.  When click queue prompt, it will get an error, then put a corresponding checkpoint in the ComfyUI/models/checkpoints folder,  you can download from the website: https://huggingface.co/autismanon/modeldump/blob/main/dreamshaper_8.safetensors
+4.  When click queue prompt, it will get an error, neither missing custom nodes or missing models. We can use ComfyUI Manager to install it. If we cannot find it in comfyui manager, then searching on website, for previous workflow example, we need to search online and then put a corresponding checkpoint in ComfyUI/models/checkpoints folder,  you can download from the website: https://huggingface.co/autismanon/modeldump/blob/main/dreamshaper_8.safetensors
     
     ```python
     #
